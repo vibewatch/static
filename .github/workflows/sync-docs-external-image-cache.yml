@@ -1,0 +1,88 @@
+name: Sync docs external image cache
+
+on:
+  workflow_dispatch:
+    inputs:
+      source_ref:
+        description: Branch, tag, or SHA of vibewatch/vibewatch.github.io to scan
+        required: false
+        default: main
+        type: string
+      dry_run:
+        description: Scan only; do not download, commit, or push
+        required: false
+        default: false
+        type: boolean
+  schedule:
+    # Daily at 06:00 UTC
+    - cron: '0 6 * * *'
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/sync_docs_external_image_cache.py'
+      - '.github/workflows/sync-docs-external-image-cache.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-docs-external-image-cache
+  cancel-in-progress: false
+
+jobs:
+  sync-docs-external-image-cache:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout static asset repo
+        uses: actions/checkout@v6
+        with:
+          path: static
+          token: ${{ secrets.GITHUB_TOKEN }}
+          persist-credentials: true
+          fetch-depth: 1
+
+      - name: Checkout docs source repo
+        uses: actions/checkout@v4
+        with:
+          repository: vibewatch/vibewatch.github.io
+          path: source
+          ref: ${{ inputs.source_ref || 'main' }}
+          persist-credentials: false
+          fetch-depth: 1
+
+      - name: Set up Python runtime
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Cache external images referenced by docs
+        working-directory: static
+        run: |
+          set -euo pipefail
+          dry_run_args=()
+          if [[ "${{ inputs.dry_run || false }}" == "true" ]]; then
+            dry_run_args+=(--dry-run)
+          fi
+          python scripts/sync_docs_external_image_cache.py \
+            --docs-root "${GITHUB_WORKSPACE}/source/docs" \
+            --cache-root "${GITHUB_WORKSPACE}/static/docs-external-image-cache" \
+            "${dry_run_args[@]}"
+
+      - name: Commit external image cache updates
+        if: ${{ !(inputs.dry_run || false) }}
+        working-directory: static
+        run: |
+          set -euo pipefail
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs-external-image-cache
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          # Build a short summary for the commit message.
+          added_files=$(git diff --cached --name-only --diff-filter=A -- docs-external-image-cache/files | wc -l | tr -d ' ')
+          modified_files=$(git diff --cached --name-only --diff-filter=M -- docs-external-image-cache | wc -l | tr -d ' ')
+          git commit -m "chore(docs-external-image-cache): sync from vibewatch.github.io" \
+                     -m "added: ${added_files} new image(s); modified: ${modified_files} manifest file(s)"
+          git push
