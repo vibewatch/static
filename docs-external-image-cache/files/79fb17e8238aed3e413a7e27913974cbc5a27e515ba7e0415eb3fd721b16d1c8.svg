@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" font-family="-apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <style>
+    .node { fill: #1e293b; stroke: #64748b; stroke-width: 1.5; rx: 10; }
+    .label { fill: #e2e8f0; font-size: 16px; font-weight: 600; }
+    .sub { fill: #94a3b8; font-size: 12px; }
+    .arrow { stroke: #64748b; stroke-width: 1.5; fill: none; marker-end: url(#ar); }
+    .note { fill: #cbd5e1; font-size: 12.5px; }
+    .hl { fill: #f59e0b; font-weight: 700; }
+    @media (prefers-color-scheme: light) {
+      .node { fill: #f1f5f9; }
+      .label { fill: #0f172a; }
+      .sub { fill: #475569; }
+      .arrow { stroke: #475569; }
+      .note { fill: #334155; }
+    }
+  </style>
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#64748b"/>
+    </marker>
+  </defs>
+
+  <!-- actors -->
+  <rect x="30" y="30" width="250" height="70" rx="10" fill="#1e293b" stroke="#64748b" stroke-width="1.5"/>
+  <text x="155" y="60" text-anchor="middle" class="label">ZCode client</text>
+  <text x="155" y="82" text-anchor="middle" class="sub">your machine</text>
+
+  <rect x="325" y="30" width="250" height="70" rx="10" fill="#1e293b" stroke="#64748b" stroke-width="1.5"/>
+  <text x="450" y="60" text-anchor="middle" class="label">zcode.z.ai</text>
+  <text x="450" y="82" text-anchor="middle" class="sub">Zhipu coordinator</text>
+
+  <rect x="620" y="30" width="250" height="70" rx="10" fill="#1e293b" stroke="#64748b" stroke-width="1.5"/>
+  <text x="745" y="60" text-anchor="middle" class="label">Aliyun OSS</text>
+  <text x="745" y="82" text-anchor="middle" class="sub">Alibaba Cloud storage</text>
+
+  <!-- flow -->
+  <line x1="280" y1="130" x2="325" y2="130" stroke="#64748b" stroke-width="1.5" marker-end="url(#ar)"/>
+  <text x="302" y="120" text-anchor="middle" class="note">1</text>
+  <text x="470" y="145" class="note">POST /api/v1/snapshot/upload-credential</text>
+
+  <line x1="325" y1="190" x2="280" y2="190" stroke="#64748b" stroke-width="1.5" marker-end="url(#ar)"/>
+  <text x="470" y="195" class="note">returns: snapshot_id, RSA public key, OSS form credentials</text>
+
+  <!-- local packing box -->
+  <rect x="60" y="240" width="420" height="120" rx="10" fill="#0f172a" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="270" y="272" text-anchor="middle" class="label">Local packing (on your machine)</text>
+  <text x="270" y="296" text-anchor="middle" class="note">tar.gz pack &#8594; AES-256-CTR encrypt</text>
+  <text x="270" y="318" text-anchor="middle" class="note">&#8594; RSA-OAEP wrap the symmetric key</text>
+  <text x="270" y="344" text-anchor="middle" class="note" fill="#f59e0b">private key never touches your machine</text>
+
+  <!-- upload -->
+  <line x1="330" y1="400" x2="620" y2="400" stroke="#64748b" stroke-width="1.5" marker-end="url(#ar)"/>
+  <text x="475" y="390" text-anchor="middle" class="note">HTTP form POST: tar.gz.enc (direct to OSS)</text>
+  <line x1="870" y1="440" x2="580" y2="440" stroke="#64748b" stroke-width="1.5" marker-end="url(#ar)"/>
+  <text x="700" y="432" text-anchor="middle" class="note">callback: snapshot registered</text>
+
+  <!-- key asymmetry box -->
+  <rect x="60" y="490" width="810" height="150" rx="10" fill="#3b1d1d" stroke="#ef4444" stroke-width="1.5"/>
+  <text x="465" y="525" text-anchor="middle" class="label" fill="#fca5a5">The key asymmetry</text>
+  <text x="465" y="552" text-anchor="middle" class="note">Server delivers the public key mid-session. The private key lives only in Zhipu's cloud.</text>
+  <text x="465" y="576" text-anchor="middle" class="note">The 313MB ciphertext on your own disk cannot be decrypted by you - or by the ZCode client.</text>
+  <text x="465" y="608" text-anchor="middle" class="label" fill="#f87171">Only Z.ai can read your archive.</text>
+
+  <!-- source -->
+  <text x="30" y="690" class="sub">Source: ferstar, "Inside ZCode" (blog.ferstar.org, Sep 18 2026) - reconstructed from the client's app.asar.</text>
+</svg>

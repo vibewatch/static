@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" font-family="-apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+  <style>
+    .bar-git { fill: #ef4444; }
+    .bar-src { fill: #3b82c4; }
+    .t { fill: #e2e8f0; font-size: 15px; font-weight: 600; }
+    .lab { fill: #e2e8f0; font-size: 13px; }
+    .val { fill: #94a3b8; font-size: 12.5px; }
+    .big { fill: #f87171; font-size: 42px; font-weight: 800; }
+    @media (prefers-color-scheme: light) {
+      .t { fill: #0f172a; }
+      .lab { fill: #0f172a; }
+      .val { fill: #475569; }
+      .big { fill: #dc2626; }
+    }
+  </style>
+
+  <text x="450" y="40" text-anchor="middle" class="t" font-size="18">One ZCode snapshot: 42,411 files, 313MB encrypted</text>
+
+  <!-- horizontal stacked bar -->
+  <rect x="60" y="70" width="432" height="60" fill="#ef4444"/>
+  <rect x="492" y="70" width="149" height="60" fill="#3b82c4"/>
+  <rect x="641" y="70" width="6" height="60" fill="#8b5cf6"/>
+  <rect x="647" y="70" width="193" height="60" fill="#334155"/>
+
+  <text x="270" y="105" text-anchor="middle" class="lab" font-weight="700">.git directory - 86.6%</text>
+  <text x="743" y="105" text-anchor="middle" class="lab" font-weight="700">src + docs - 13.4%</text>
+
+  <!-- breakdown rows -->
+  <g transform="translate(60, 170)">
+    <text y="0" class="lab" font-weight="700">What the 86.6% .git share actually is:</text>
+
+    <rect x="0" y="20" width="20" height="20" fill="#ef4444"/>
+    <text x="32" y="35" class="lab">.git/lfs/ - 196.1 MB (56.8%)</text>
+    <text x="340" y="35" class="val">LFS cache: every binary asset and large media file ever downloaded</text>
+
+    <rect x="0" y="58" width="20" height="20" fill="#b91c1c"/>
+    <text x="32" y="73" class="lab">.git/objects/ - 102.2 MB (29.6%)</text>
+    <text x="340" y="73" class="val">Complete commit history: commits, trees, blobs - the full lineage since day one</text>
+
+    <rect x="0" y="96" width="20" height="20" fill="#7f1d1d"/>
+    <text x="32" y="111" class="lab">.git/logs/ - 0.6 MB (0.2%)</text>
+    <text x="340" y="111" class="val">Reflogs: local branch history and unpushed operational traces</text>
+
+    <rect x="0" y="134" width="20" height="20" fill="#3b82c4"/>
+    <text x="32" y="149" class="lab">src/ and config - 46.2 MB (13.4%)</text>
+    <text x="340" y="111" class="val"/>
+  </g>
+
+  <!-- what the cloud receives -->
+  <rect x="60" y="330" width="800" height="110" rx="10" fill="#3b1d1d" stroke="#ef4444" stroke-width="1.5"/>
+  <text x="460" y="362" text-anchor="middle" class="t">The cloud receives more than your working tree</text>
+  <text x="460" y="388" text-anchor="middle" class="lab">Historical API keys and sensitive configs deleted in later commits</text>
+  <text x="460" y="410" text-anchor="middle" class="lab">Unpushed local branch names - a map of unreleased feature plans</text>
+  <text x="460" y="432" text-anchor="middle" class="lab">Internal GitLab hostnames and repository paths from .git/config</text>
+
+  <text x="60" y="470" class="val">Source: ferstar's packaging manifest, blog.ferstar.org (Sep 18 2026) - 42,411 files, stored locally in plaintext.</text>
+</svg>
