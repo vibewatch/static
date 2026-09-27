@@ -1,7 +1,7 @@
 {
-  "english_markdown_files": 1314,
-  "unique_image_urls": 6543,
-  "downloaded_or_cached": 6517,
+  "english_markdown_files": 1322,
+  "unique_image_urls": 6587,
+  "downloaded_or_cached": 6561,
   "failed": 26,
   "entries": [
     {
@@ -665,7 +665,8 @@
       "size": 122259,
       "sha256": "3ac85465177d5d8766b2713542f777c3673b1fc07559fee7ae696dd98b86c1f7",
       "source_docs": [
-        "reddit/ai-agent/2026-09-25.md"
+        "reddit/ai-agent/2026-09-25.md",
+        "reddit/ai-agent/2026-09-26.md"
       ]
     },
     {
@@ -1306,6 +1307,16 @@
       ]
     },
     {
+      "url": "https://i.redd.it/2djdn3q5xqrh1.png",
+      "cache_path": "files/669e3223295511606d54fe8aa204ea8e78cdaba4f1c0b6e52da2b95d85bc8ec6.png",
+      "content_type": "image/png",
+      "size": 167521,
+      "sha256": "352a5214052c8714155ca04059ad0524a189b0428a555aa665331b503ceca968",
+      "source_docs": [
+        "reddit/ai-coding/2026-09-26.md"
+      ]
+    },
+    {
       "url": "https://i.redd.it/2dw5ozkq47ch1.png",
       "cache_path": "files/3db496b87a9bc9c3b5a6e36b82f16f866fddec821d35f7688ab1a547e79ffec9.png",
       "content_type": "image/png",
@@ -1624,6 +1635,16 @@
       ]
     },
     {
+      "url": "https://i.redd.it/37osiixspurh1.jpeg",
+      "cache_path": "files/e7d3dc2e0e34216b14306b3b80826c56be8c5fc578fb16c9f732bdb416d550aa.jpeg",
+      "content_type": "image/jpeg",
+      "size": 198419,
+      "sha256": "d9606c582eb499468b8f02a10ce203ce1bd597459116d163f0f2cb97a539438f",
+      "source_docs": [
+        "reddit/ai/2026-09-26.md"
+      ]
+    },
+    {
       "url": "https://i.redd.it/3887htilyqhh1.jpeg",
       "cache_path": "files/27f3a160fca26ad22cde9796b0891dbd54b3ddbee2b30faa37e13cc9844ccf76.jpeg",
       "content_type": "image/jpeg",
@@ -1661,6 +1682,16 @@
       "sha256": "76b285182885a8f3ddbd79ec84f25328939c4f26380a09bc9b7271e2e78f6f3c",
       "source_docs": [
         "reddit/ai-agent/2026-08-26.md"
+      ]
+    },
+    {
+      "url": "https://i.redd.it/3bjmmk6o4urh1.png",
+      "cache_path": "files/ae96ef51a6a3c12f22acd8910ad0074ddb5b4fe4fe5b7b867194db4a3d93897d.png",
+      "content_type": "image/png",
+      "size": 333134,
+      "sha256": "9bdc66a64c3a4e808fe382354b1ecc3f9ebad242732e91c6fb2bd6bee8766b88",
+      "source_docs": [
+        "reddit/ai/2026-09-26.md"
       ]
     },
     {
@@ -2724,7 +2755,8 @@
       "size": 116013,
       "sha256": "f54df6c0d3ad114e6665e70e53999a646f05753acb0a1190bb20d3eb8c1cefc6",
       "source_docs": [
-        "reddit/ai-agent/2026-09-25.md"
+        "reddit/ai-agent/2026-09-25.md",
+        "reddit/ai-agent/2026-09-26.md"
       ]
     },
     {
@@ -5570,7 +5602,8 @@
       "size": 238092,
       "sha256": "bf9d9a65f6d64151cb7385621eef729d9282fea61945f79d5f40e2f2cc6c90f6",
       "source_docs": [
-        "reddit/ai/2026-09-25.md"
+        "reddit/ai/2026-09-25.md",
+        "reddit/ai/2026-09-26.md"
       ]
     },
     {
@@ -5767,6 +5800,16 @@
       "sha256": "f7619ca34f2c3e9010b2ef602e5773f71c6c962ae80572e8cd09eca03e151aad",
       "source_docs": [
         "reddit/ai/2026-08-06.md"
+      ]
+    },
+    {
+      "url": "https://i.redd.it/dpozz4ev4wrh1.jpeg",
+      "cache_path": "files/ac2f5be7d5720e8094ddab961c73acc3ec9ee1a73c37928f4f9068df8be914a3.jpeg",
+      "content_type": "image/jpeg",
+      "size": 1051503,
+      "sha256": "971d5c9f2e3b951e0d845e0fa1b0647aeb1ea43264e3564ab4ca47dae81c73b6",
+      "source_docs": [
+        "reddit/ai-coding/2026-09-26.md"
       ]
     },
     {
@@ -9381,6 +9424,16 @@
       ]
     },
     {
+      "url": "https://i.redd.it/miu8h19omnrh1.png",
+      "cache_path": "files/bdfba9c4d9c1ae1c13bd57b023869d3e5b6f314ca37ee0d487b1494e641f54d3.png",
+      "content_type": "image/png",
+      "size": 29061,
+      "sha256": "5b39c2ae895c169dfb7ef96eec2513c84bdb4409ba9ebc018e6ef20b6eb7eb7f",
+      "source_docs": [
+        "reddit/ai/2026-09-26.md"
+      ]
+    },
+    {
       "url": "https://i.redd.it/mius3v4nc59h1.png",
       "cache_path": "files/07bd8fd3695f22239b4b66bf5c7c939f546c919a6e8cb6a27de9b31c727054e2.png",
       "content_type": "image/png",
@@ -10417,7 +10470,8 @@
       "size": 1102903,
       "sha256": "23d9d80eadbe3dc387a2a3d4ac67d57faa211876a782dbb37f964a705b0cf781",
       "source_docs": [
-        "reddit/ai-coding/2026-09-25.md"
+        "reddit/ai-coding/2026-09-25.md",
+        "reddit/ai-coding/2026-09-26.md"
       ]
     },
     {
@@ -10933,6 +10987,16 @@
       "source_docs": [
         "reddit/ai/2026-09-07.md",
         "reddit/ai/2026-09-08.md"
+      ]
+    },
+    {
+      "url": "https://i.redd.it/q5ppb7kvtprh1.jpeg",
+      "cache_path": "files/e442a5f1bb05cac3aa301edd368a3caa0e45ae95eb7a08ebab5b76efc4209467.jpeg",
+      "content_type": "image/jpeg",
+      "size": 786557,
+      "sha256": "1a077c73c4ad02ba4ee49a3259b1b5bddaf02eda51d6e8a9aae148e84568ffe1",
+      "source_docs": [
+        "reddit/ai/2026-09-26.md"
       ]
     },
     {
@@ -11497,6 +11561,16 @@
       "sha256": "13502ac77c7b0f0c959bbf02c19958d9aca3002676e3d70011c370eb1b759b8e",
       "source_docs": [
         "reddit/ai/2026-05-02.md"
+      ]
+    },
+    {
+      "url": "https://i.redd.it/rtut7hnpgsrh1.jpeg",
+      "cache_path": "files/f1633abb34f4797df84f07c545cc0d822cf39869e42d715fdb7f21e851a50b00.jpeg",
+      "content_type": "image/jpeg",
+      "size": 105765,
+      "sha256": "c168d39acd8b27835bae9945a427bcdcc2b2bb365b5713d4c3e3e4f2f761e4ed",
+      "source_docs": [
+        "reddit/ai-agent/2026-09-26.md"
       ]
     },
     {
@@ -12579,6 +12653,16 @@
       ]
     },
     {
+      "url": "https://i.redd.it/ughnbbvdlwrh1.png",
+      "cache_path": "files/79d36066b42bb8102bbb92f08a4caf5afd7843e34d5ea37846cce76508cb0264.png",
+      "content_type": "image/png",
+      "size": 116227,
+      "sha256": "88794fd5b1a88b2e3e1a8add92a940eb372555f6cb429e77ec2b92385556eabc",
+      "source_docs": [
+        "reddit/ai-agent/2026-09-26.md"
+      ]
+    },
+    {
       "url": "https://i.redd.it/ui531giwhr0h1.jpeg",
       "cache_path": "files/bf0f37c52c0c695c3317288d21b593ce4ee2f6f327089dd5a14b0e1734d5a793.jpeg",
       "content_type": "image/jpeg",
@@ -12850,7 +12934,8 @@
       "size": 105599,
       "sha256": "4fc5aba43eeab4c358dae8621aa3903ba128605f2088e38adb5ac08b1e3e6d1e",
       "source_docs": [
-        "reddit/ai-coding/2026-09-25.md"
+        "reddit/ai-coding/2026-09-25.md",
+        "reddit/ai-coding/2026-09-26.md"
       ]
     },
     {
@@ -14460,6 +14545,16 @@
       "sha256": "1d8317ca8073c6fdfe46f93ec42867efb9986b7402ac67f19573995262fa4fd8",
       "source_docs": [
         "reddit/ai/2026-05-14.md"
+      ]
+    },
+    {
+      "url": "https://i.redd.it/z6utim0psqrh1.png",
+      "cache_path": "files/082008d7befdfd4668f4ec86125c71970d1e43e8a0bbfc7982682e48549e0b3e.png",
+      "content_type": "image/png",
+      "size": 83012,
+      "sha256": "14fc6c9eb3b20caa485ff8129058e1927b9858ab1d61d85ce3a2c77d945578c3",
+      "source_docs": [
+        "reddit/ai/2026-09-26.md"
       ]
     },
     {
@@ -16116,7 +16211,8 @@
         "youtube/ai/2026-09-22.md",
         "youtube/ai/2026-09-23.md",
         "youtube/ai/2026-09-24.md",
-        "youtube/ai/2026-09-25.md"
+        "youtube/ai/2026-09-25.md",
+        "youtube/ai/2026-09-26.md"
       ]
     },
     {
@@ -17030,7 +17126,8 @@
       "size": 220922,
       "sha256": "46e712bdd9bc77cdf16ee0043ec1b60752a3a74bf84cfcfdbc6bc0141005892c",
       "source_docs": [
-        "youtube/ai/2026-09-21.md"
+        "youtube/ai/2026-09-21.md",
+        "youtube/ai/2026-09-26.md"
       ]
     },
     {
@@ -18940,7 +19037,8 @@
       "size": 171740,
       "sha256": "3b116b3844bc883e6afa8247ebb915a9340c2ac47e8870f397a263b9e689d044",
       "source_docs": [
-        "youtube/ai/2026-09-22.md"
+        "youtube/ai/2026-09-22.md",
+        "youtube/ai/2026-09-26.md"
       ]
     },
     {
@@ -19208,7 +19306,8 @@
       "sha256": "958df30f4cdbcbc2716e56f509106570bfdb77181ccfc08e3dcce791d5aa7d29",
       "source_docs": [
         "youtube/ai/2026-09-24.md",
-        "youtube/ai/2026-09-25.md"
+        "youtube/ai/2026-09-25.md",
+        "youtube/ai/2026-09-26.md"
       ]
     },
     {
@@ -19275,7 +19374,8 @@
       "size": 206508,
       "sha256": "8ce2dbcde3ebb63955964558c09717c0d49f38de51e2aa4e8e5eee06d2e87365",
       "source_docs": [
-        "youtube/ai/2026-09-25.md"
+        "youtube/ai/2026-09-25.md",
+        "youtube/ai/2026-09-26.md"
       ]
     },
     {
@@ -19480,7 +19580,8 @@
       "size": 223554,
       "sha256": "f3e0d28fd4a784fc6038b764da988487d1363116e07795ad549fefd44c248065",
       "source_docs": [
-        "youtube/ai/2026-09-25.md"
+        "youtube/ai/2026-09-25.md",
+        "youtube/ai/2026-09-26.md"
       ]
     },
     {
@@ -19710,7 +19811,8 @@
       "sha256": "271ae8ef8380728b0aead1658e6a28b0c95d20638978ca34f211bcd986fcc793",
       "source_docs": [
         "youtube/ai/2026-09-22.md",
-        "youtube/ai/2026-09-24.md"
+        "youtube/ai/2026-09-24.md",
+        "youtube/ai/2026-09-26.md"
       ]
     },
     {
@@ -21540,6 +21642,16 @@
       ]
     },
     {
+      "url": "https://i.ytimg.com/vi/fQuJdcdLpEY/maxresdefault.jpg",
+      "cache_path": "files/5229cf97b726680d8249f25586bc0788f6a3b8580d5d297082c41a2e68247e18.jpg",
+      "content_type": "image/jpeg",
+      "size": 167644,
+      "sha256": "9326f07811bf40e9fdaf46cd4e4094d8941e33c668cd3e92d05a6193bab4506e",
+      "source_docs": [
+        "youtube/ai/2026-09-26.md"
+      ]
+    },
+    {
       "url": "https://i.ytimg.com/vi/fWZylhIHF9w/maxresdefault.jpg",
       "cache_path": "files/b43ec6ddf79d402ec27e0a6aa7e0365591c73a9a2fd8b4e8230ff9657e200705.jpg",
       "content_type": "image/jpeg",
@@ -22276,7 +22388,8 @@
       "source_docs": [
         "youtube/ai/2026-09-19.md",
         "youtube/ai/2026-09-20.md",
-        "youtube/ai/2026-09-24.md"
+        "youtube/ai/2026-09-24.md",
+        "youtube/ai/2026-09-26.md"
       ]
     },
     {
@@ -22402,7 +22515,8 @@
       "sha256": "332091b0813ed09c55bf5d8ea2d031bbb924848a53ad49ecb545cc3c79281bfe",
       "source_docs": [
         "youtube/ai/2026-09-23.md",
-        "youtube/ai/2026-09-25.md"
+        "youtube/ai/2026-09-25.md",
+        "youtube/ai/2026-09-26.md"
       ]
     },
     {
@@ -24247,6 +24361,16 @@
       ]
     },
     {
+      "url": "https://i.ytimg.com/vi/yIDX-ReEvhA/maxresdefault.jpg",
+      "cache_path": "files/e1eb83145a940d067e0ab805dd879e61239eb7373819beab9a8835e7eb5b6536.jpg",
+      "content_type": "image/jpeg",
+      "size": 147204,
+      "sha256": "cfdf5309b35c66224162037aba2b45bc0c725e611ba21faef0b6d361192e552d",
+      "source_docs": [
+        "youtube/ai/2026-09-26.md"
+      ]
+    },
+    {
       "url": "https://i.ytimg.com/vi/yMoUwyyTe3E/maxresdefault.jpg",
       "cache_path": "files/a2ead72eaa0bcac0a9653c4394152f71fe495941294cf5bfb3c64ead60d0b01a.jpg",
       "content_type": "image/jpeg",
@@ -24416,6 +24540,16 @@
         "youtube/ai/2026-09-14.md",
         "youtube/ai/2026-09-15.md",
         "youtube/ai/2026-09-16.md"
+      ]
+    },
+    {
+      "url": "https://olegdubovoi.com/thoughts/2026-09-26-orca-agent-development-environment-ade-for-shipping-with-coding-agents/orca-interface.webp",
+      "cache_path": "files/c81268f13530dfe621a55063acf3ee03b9a9d61adea3169d4744b0358d0a97fa.webp",
+      "content_type": "image/webp",
+      "size": 109064,
+      "sha256": "38bdb8734990aa8131594c8df59ba7b081a2694515d7778f9bf4222a366bc40d",
+      "source_docs": [
+        "hackernews/ai/2026-09-26.md"
       ]
     },
     {
@@ -56053,6 +56187,16 @@
       ]
     },
     {
+      "url": "https://pbs.twimg.com/media/HTE9Kt2bwAAQdR_.jpg",
+      "cache_path": "files/ef9bc65452bfdc43fcfc49d003504223a844b2fc1c88234f485c8723b0ca1841.jpg",
+      "content_type": "image/jpeg",
+      "size": 21010,
+      "sha256": "9ea0422166b395e4af064895182020fb9551e935d8dcd87d141005052bad7a33",
+      "source_docs": [
+        "twitter/ai-coding/2026-09-26.md"
+      ]
+    },
+    {
       "url": "https://pbs.twimg.com/media/HTEJXsuagAAaUe-.png",
       "cache_path": "files/663f236c9022751ed845dd013e7d9988af02e93c26a27e686633d165fc5ec281.png",
       "content_type": "image/png",
@@ -56133,6 +56277,16 @@
       ]
     },
     {
+      "url": "https://pbs.twimg.com/media/HTF6WHobcAAb3UX.jpg",
+      "cache_path": "files/0f1fad8ba3a74669dbf9b11a0ae75363c34a15d38d5fba4790c34c8dd6e4cde0.jpg",
+      "content_type": "image/jpeg",
+      "size": 112326,
+      "sha256": "89c12e88ba2234ef284f34771da254a2955f697cf15c912fe22da64f26270c7f",
+      "source_docs": [
+        "twitter/ai-agent/2026-09-26.md"
+      ]
+    },
+    {
       "url": "https://pbs.twimg.com/media/HTFLrAtW8AARUn4.jpg",
       "cache_path": "files/e8653795e970d5d4f58d23ba733ea51b9097a82a48ef6fa61376d28b5f2ccf0a.jpg",
       "content_type": "image/jpeg",
@@ -56170,6 +56324,166 @@
       "sha256": "0a4ec497443e6cbc0f9ee27ede6f35e0c75bb19adc1d1773b6a14ec20068ff3c",
       "source_docs": [
         "twitter/ai-coding/2026-09-25.md"
+      ]
+    },
+    {
+      "url": "https://pbs.twimg.com/media/HTGI-yvWkAA2v7S.jpg",
+      "cache_path": "files/20c1c155c310c5e3ea61f9a9074aa0869e8e83d1673698bc31d923796edf11da.jpg",
+      "content_type": "image/jpeg",
+      "size": 231696,
+      "sha256": "a5b85a4f0d1ee40e47b011393c582b714cd49b719c85fec5f5d122ca9f3b7aa8",
+      "source_docs": [
+        "twitter/ai/2026-09-26.md"
+      ]
+    },
+    {
+      "url": "https://pbs.twimg.com/media/HTGILtPWIAAT4zA.jpg",
+      "cache_path": "files/8aecb28523546a14e304de2d03e3b05c4a68d00a41806532106fb63d8e057a7c.jpg",
+      "content_type": "image/jpeg",
+      "size": 95490,
+      "sha256": "0aa304616df08b98697db0908a6a2451553ef22e075565cf8fb885ec6501121a",
+      "source_docs": [
+        "twitter/ai/2026-09-26.md"
+      ]
+    },
+    {
+      "url": "https://pbs.twimg.com/media/HTHge9Ya0AAUZpR.jpg",
+      "cache_path": "files/e590e35071ded1303c6a1484e48f93dee94335510a41a012b44c4572842a83ba.jpg",
+      "content_type": "image/jpeg",
+      "size": 247023,
+      "sha256": "025e0a481a4f26e988250c47347ae674747472d968c4bed9e059ea65c483ea03",
+      "source_docs": [
+        "twitter/ai/2026-09-26.md"
+      ]
+    },
+    {
+      "url": "https://pbs.twimg.com/media/HTICNIGXoAAS-HE.jpg",
+      "cache_path": "files/96ef6ea658ae72ca16315a51538943174164108b6c5df2127bb851b95330d5f8.jpg",
+      "content_type": "image/jpeg",
+      "size": 125610,
+      "sha256": "fafbfd92411ace74ed7e240c00d7066eea74923c19e67facefccc5c33d4dba8b",
+      "source_docs": [
+        "twitter/ai/2026-09-26.md"
+      ]
+    },
+    {
+      "url": "https://pbs.twimg.com/media/HTIXARJWkAAQ8-D.jpg",
+      "cache_path": "files/eb57291a0419f97b90fe056d1d3f48c11e3c2b6834a4db06c38f7ca9f7af7816.jpg",
+      "content_type": "image/jpeg",
+      "size": 243796,
+      "sha256": "8762d8d26177546c1f837031d7ad61d14fa511ec802532d7a31196846b8b820d",
+      "source_docs": [
+        "twitter/ai/2026-09-26.md"
+      ]
+    },
+    {
+      "url": "https://pbs.twimg.com/media/HTIftRLWUAAzOoJ.jpg",
+      "cache_path": "files/5259628f3ffa48a6c798009cf443e95792e39490075fdaf318c4d69537e44516.jpg",
+      "content_type": "image/jpeg",
+      "size": 128595,
+      "sha256": "26463212b7fcbc10e64871c050a5db413d5c984c3844fff93389dbe3e4a60623",
+      "source_docs": [
+        "twitter/ai-coding/2026-09-26.md"
+      ]
+    },
+    {
+      "url": "https://pbs.twimg.com/media/HTIuJdzb0AANJfc.jpg",
+      "cache_path": "files/130ab32270983b01772c67e8d8e80e6f0274e60c796acd7f53d0c541471aac83.jpg",
+      "content_type": "image/jpeg",
+      "size": 76511,
+      "sha256": "17554ee2c95612641c815928d89f6a67a3b78247e5912fb76d8e2d3f9bb793de",
+      "source_docs": [
+        "twitter/ai-coding/2026-09-26.md"
+      ]
+    },
+    {
+      "url": "https://pbs.twimg.com/media/HTIxPZmWgAAjc1Y.jpg",
+      "cache_path": "files/4707e15895571016562e8bd0dc1774faeaed524e48057efa1393eacb34e91475.jpg",
+      "content_type": "image/jpeg",
+      "size": 33704,
+      "sha256": "fc585814458007ce8703d96f2eebc12838ac5ef8ba0ffba548bf7fc652218a20",
+      "source_docs": [
+        "twitter/ai-coding/2026-09-26.md"
+      ]
+    },
+    {
+      "url": "https://pbs.twimg.com/media/HTJJKjqbgAAFbhr.jpg",
+      "cache_path": "files/8b1203e0fc0b62585d9c8c24fdd44b0c3e4e4998a19262209e2617b2909f4616.jpg",
+      "content_type": "image/jpeg",
+      "size": 145828,
+      "sha256": "fd2e1a27b1ff4756c92028b09a4a7e26d2ed595077263323c79c17a26a602bf4",
+      "source_docs": [
+        "twitter/ai-agent/2026-09-26.md"
+      ]
+    },
+    {
+      "url": "https://pbs.twimg.com/media/HTJLcXZaYAAbiA9.jpg",
+      "cache_path": "files/e3d572cc9325d65e0f8dc4e566ea71b5a0102af66542b5d6965e208c1323bf3d.jpg",
+      "content_type": "image/jpeg",
+      "size": 213744,
+      "sha256": "43507eb2a0fc149d162bf0337c4afabb3c8ce85fcce287671733fe12424bab55",
+      "source_docs": [
+        "twitter/ai-agent/2026-09-26.md"
+      ]
+    },
+    {
+      "url": "https://pbs.twimg.com/media/HTJQCI-XQAAaJyE.png",
+      "cache_path": "files/1086ff65cb2d6d65c4218ecc61be67331826d3e96ea45007789ee7f61cdd395f.png",
+      "content_type": "image/png",
+      "size": 202547,
+      "sha256": "a670a63e581230e44992f977c7dfd4d825fb76208a1b266de5c0b3405c5d3588",
+      "source_docs": [
+        "twitter/ai-agent/2026-09-26.md"
+      ]
+    },
+    {
+      "url": "https://pbs.twimg.com/media/HTJky1ZacAA_YFh.jpg",
+      "cache_path": "files/2c2945111299ca5966a42e7fc4d0332fbb850d586a7177be02a8528f481fe002.jpg",
+      "content_type": "image/jpeg",
+      "size": 122021,
+      "sha256": "3a8549db535ea3480fe702a047af0f1d8b735665f09aefcfb59bc47755a3f260",
+      "source_docs": [
+        "twitter/ai-coding/2026-09-26.md"
+      ]
+    },
+    {
+      "url": "https://pbs.twimg.com/media/HTK4av2XEAAcZjM.png",
+      "cache_path": "files/fc590cb1a75702a37bd220206f486efdba767b9e368d067a44d858eed9da4878.png",
+      "content_type": "image/png",
+      "size": 247253,
+      "sha256": "bd7041c3a831f3e7164d5c5cc6331ed5819cd0177c2e6a4f0c6e129be5746375",
+      "source_docs": [
+        "twitter/ai/2026-09-26.md"
+      ]
+    },
+    {
+      "url": "https://pbs.twimg.com/media/HTKPrRfW4AEhvQk.jpg",
+      "cache_path": "files/6b74a87dbf47b677e5d45e120d59b8cafc366d0baad081077065804c020a6921.jpg",
+      "content_type": "image/jpeg",
+      "size": 123447,
+      "sha256": "107bc07d10f0320d9b9f89907bfcb4b5dacf8f790af8ca2f8ce6cde874439487",
+      "source_docs": [
+        "twitter/ai/2026-09-26.md"
+      ]
+    },
+    {
+      "url": "https://pbs.twimg.com/media/HTKfVzbbwAAzvUR.jpg",
+      "cache_path": "files/f152505aed5629a388a28b211d0d3989f41a24741d570086997652963a982cad.jpg",
+      "content_type": "image/jpeg",
+      "size": 81000,
+      "sha256": "713eff27f51f973aa45c18df3aa6aab8b342985cfef3e7e2ef7c4b5d6b418352",
+      "source_docs": [
+        "twitter/ai-agent/2026-09-26.md"
+      ]
+    },
+    {
+      "url": "https://pbs.twimg.com/media/HTKinptXIAEni0M.jpg",
+      "cache_path": "files/e659c2608ff9f10866b886844c1cc8ab6bcbfc0f2393dd89b567fc1cd77c22d4.jpg",
+      "content_type": "image/jpeg",
+      "size": 165020,
+      "sha256": "5110c6648dfa46802f69ec387be6d44a91c7fd263089349a64862a37250bb98c",
+      "source_docs": [
+        "twitter/ai/2026-09-26.md"
       ]
     },
     {
@@ -56469,6 +56783,16 @@
       ]
     },
     {
+      "url": "https://preview.redd.it/0opibjv3emrh1.png?width=1225&format=png&auto=webp&s=34bbcecd2aac14b3482b0757fecc56cf873e9695",
+      "cache_path": "files/7eaa1de98a979241b7c70cd05f0ac22f0cb5562c46054d96446c18dbab165fca.png",
+      "content_type": "image/png",
+      "size": 70268,
+      "sha256": "0a294d2167b639bc8dd3740048225401b302250289e66d974f316e91ed270daa",
+      "source_docs": [
+        "reddit/ai/2026-09-26.md"
+      ]
+    },
+    {
       "url": "https://preview.redd.it/0p5nuaseoxvg1.png?width=933&format=png&auto=webp&s=d1a784e77c7c77577f2cc9ccecc1e034e8be37fc",
       "cache_path": "files/895fdb60516b87719b376fb397299e1eeb469ad9f839db77d0921cda73d86d8d.png",
       "content_type": "image/png",
@@ -56588,6 +56912,16 @@
       "source_docs": [
         "reddit/ai/2026-06-04.md",
         "reddit/ai/2026-06-05.md"
+      ]
+    },
+    {
+      "url": "https://preview.redd.it/12vscnhz9qrh1.png?width=786&format=png&auto=webp&s=ace16de743816a590921ef097bd9f8dff7348711",
+      "cache_path": "files/3c60f83a6f71af3873dacb10817b660f9409bc91b20f5037568e94a66a6fc2ac.png",
+      "content_type": "image/png",
+      "size": 5622,
+      "sha256": "22c46cd4a29be6499fe3cf0ee6b5b821d054e2dab26d7bce3526548feb31c58a",
+      "source_docs": [
+        "reddit/ai-coding/2026-09-26.md"
       ]
     },
     {
@@ -56857,6 +57191,16 @@
       ]
     },
     {
+      "url": "https://preview.redd.it/222xfy5qztrh1.png?width=1545&format=png&auto=webp&s=3d77c9531d9158577346777ffc4a427fa70d9126",
+      "cache_path": "files/55c75773e02e40f7b87dae6fd397a73f60d022de80e019625e2ec32c60ccd395.png",
+      "content_type": "image/png",
+      "size": 41820,
+      "sha256": "8c4975defe866dcee609f9759b7d55a3f423f5d8228c25c6a932b41969d2b74c",
+      "source_docs": [
+        "reddit/ai-agent/2026-09-26.md"
+      ]
+    },
+    {
       "url": "https://preview.redd.it/24uvk7o4sy2h1.png?width=1440&format=png&auto=webp&s=542570e3057b6f44c1e7e8d92130f575fb69cfa2",
       "cache_path": "files/328ef30d9a4f3d93b306496b2e6bd0f78935eafe8a64b8159757b4b87a1f599b.png",
       "content_type": "image/png",
@@ -56987,7 +57331,8 @@
       "size": 42626,
       "sha256": "9ccc62a10b0761c2d17fe6fc3b896b920db150623d5da2dabab7fd5e5e420d81",
       "source_docs": [
-        "reddit/ai-coding/2026-09-25.md"
+        "reddit/ai-coding/2026-09-25.md",
+        "reddit/ai-coding/2026-09-26.md"
       ]
     },
     {
@@ -57070,6 +57415,16 @@
       "sha256": "ce585c8639f6b8989a88075c20c5ee0884c249bbff87ed05dfbdb21b625cb2fb",
       "source_docs": [
         "reddit/ai/2026-04-14.md"
+      ]
+    },
+    {
+      "url": "https://preview.redd.it/2rk3zutrorrh1.png?width=853&format=png&auto=webp&s=920a32e06096b17efafc82a9c7242859d9da1f57",
+      "cache_path": "files/3d88a38341faf8811c269fbc7a7f76ba312cdfd0a98f3f3c4fe90cf7195703a5.png",
+      "content_type": "image/png",
+      "size": 469496,
+      "sha256": "99f8088e06ee90c18c266c9c43a6cce17ae56397c1bed8bf25956e05f42c8ef7",
+      "source_docs": [
+        "reddit/ai-agent/2026-09-26.md"
       ]
     },
     {
@@ -57960,7 +58315,8 @@
       "size": 138659,
       "sha256": "9ae48f4bf93d9696da078b6d784af7a80c68821931255c5a64fd8b0927f7822c",
       "source_docs": [
-        "reddit/ai-coding/2026-09-25.md"
+        "reddit/ai-coding/2026-09-25.md",
+        "reddit/ai-coding/2026-09-26.md"
       ]
     },
     {
@@ -58305,6 +58661,16 @@
       "sha256": "ac76cd3962ed61ff6f29dec8fd8fd6fa05c80fd1ab83f5bf075e13b5d654908d",
       "source_docs": [
         "reddit/ai-coding/2026-05-23.md"
+      ]
+    },
+    {
+      "url": "https://preview.redd.it/739ykn0h8qrh1.png?width=1057&format=png&auto=webp&s=959e05ef0110a00d687bd288cb67c254725fb27c",
+      "cache_path": "files/69f94769b21ce67056113ba412e1f003e5c04ade831614dad527ded9ff9f6b57.png",
+      "content_type": "image/png",
+      "size": 19737,
+      "sha256": "af05dd888e568a8a60334a0429b4ddf67f9612b39ea6b1c02db6bc771a109e25",
+      "source_docs": [
+        "reddit/ai/2026-09-26.md"
       ]
     },
     {
@@ -59921,6 +60287,16 @@
       ]
     },
     {
+      "url": "https://preview.redd.it/c57ebt5hawrh1.png?width=1490&format=png&auto=webp&s=ba9bae91ed3b153c5d1deb3f2516080e7b6ff7e2",
+      "cache_path": "files/58a2fbc70ee8f3c539ae2c823a52aaa4023e6501305c975207581ff3187877e0.png",
+      "content_type": "image/png",
+      "size": 19846,
+      "sha256": "b37c94938942d70072ade11e6acecc06fabe2c12fd755c212dd5601af8271e11",
+      "source_docs": [
+        "reddit/ai/2026-09-26.md"
+      ]
+    },
+    {
       "url": "https://preview.redd.it/c5mzbnedhh6h1.jpeg?width=1000&format=pjpg&auto=webp&s=72684fb7437f2416209770c4b1d215a91deccd00",
       "cache_path": "files/7aa14755f61764da0caf271f80d541b4e8f51f8576f2ca92af3d3123520407da.jpeg",
       "content_type": "image/jpeg",
@@ -60135,6 +60511,16 @@
       "source_docs": [
         "reddit/ai-agent/2026-04-21.md",
         "reddit/ai-agent/2026-04-22.md"
+      ]
+    },
+    {
+      "url": "https://preview.redd.it/d081ebngdqrh1.png?width=1840&format=png&auto=webp&s=bea0cc89005c6b8c1d72c2352fcd77d330c5a9c6",
+      "cache_path": "files/ef348e93f6a453f6003b06610dd30820465d502aaf77e6402e79ccd43e6f5533.png",
+      "content_type": "image/png",
+      "size": 160252,
+      "sha256": "4737417818188e228019914bcf25db8ad3a793d3c6463c72d8a5975b442148ff",
+      "source_docs": [
+        "reddit/ai-coding/2026-09-26.md"
       ]
     },
     {
@@ -61443,7 +61829,8 @@
       "size": 33546,
       "sha256": "60196b6ade2253c967177562fa41b062bd761177372ee45e7a439ae85ffc6f74",
       "source_docs": [
-        "reddit/ai-coding/2026-09-25.md"
+        "reddit/ai-coding/2026-09-25.md",
+        "reddit/ai-coding/2026-09-26.md"
       ]
     },
     {
@@ -61572,6 +61959,16 @@
       ]
     },
     {
+      "url": "https://preview.redd.it/hwp2wcc2rvrh1.png?width=1751&format=png&auto=webp&s=ac68bcf7dbca0f96c9a609cf8dfc3a09b2e0859e",
+      "cache_path": "files/403f7d7e66fbb0e600edfa32ff221405203cc0cd3b182af12ac7ad98564d3f45.png",
+      "content_type": "image/png",
+      "size": 65822,
+      "sha256": "4a8a9eea7b2830d657b97faa4974ccb9314359eecc8b77087b1d45101504dbed",
+      "source_docs": [
+        "reddit/ai-agent/2026-09-26.md"
+      ]
+    },
+    {
       "url": "https://preview.redd.it/i-built-a-framework-where-multi-agent-swarms-are-yaml-files-v0-cmr7sbv4luzg1.png?width=1280&format=png&auto=webp&s=732436f3a55a1393ced1d88035f2ba2a7a79ab96",
       "cache_path": "files/3dbce231570b8a9991437a5dfe8713a72b3a8ba68740d63c23afa961b74939b5.png",
       "content_type": "image/png",
@@ -61695,6 +62092,16 @@
       ]
     },
     {
+      "url": "https://preview.redd.it/i4klmw0l8qrh1.png?width=1057&format=png&auto=webp&s=e72d0d3f54e12012d999d5456135a07d6bedd2ba",
+      "cache_path": "files/1ba663be1a62870d9cd4ea47cb5d0499d320b82b202c9d55766f7880a41bedd0.png",
+      "content_type": "image/png",
+      "size": 19610,
+      "sha256": "6c55ae311ae05f204469694e652829c9e494e29c9eb5f7896ecd229d1f79f4f1",
+      "source_docs": [
+        "reddit/ai/2026-09-26.md"
+      ]
+    },
+    {
       "url": "https://preview.redd.it/i4mh8zc9lqgh1.png?width=1124&format=png&auto=webp&s=47053dd2faa576aa308e98c0d940ed6210246b5f",
       "cache_path": "files/3a655b5a9a65156f4ee6c44a1aade0143ca862eebd91b73616ad30cda8cc27e8.png",
       "content_type": "image/png",
@@ -61734,6 +62141,16 @@
       "source_docs": [
         "reddit/ai/2026-08-24.md",
         "reddit/ai/2026-08-25.md"
+      ]
+    },
+    {
+      "url": "https://preview.redd.it/i7tmdbdm8qrh1.png?width=1057&format=png&auto=webp&s=aa475a88ee31d5f334ccb541be8f3594598572b3",
+      "cache_path": "files/03a1e651a7a4ac89245d686b9f0f5af913cb714d4b9fdb2ffc4179c2cb27f45f.png",
+      "content_type": "image/png",
+      "size": 19195,
+      "sha256": "20e9448c3b8fee4a7c7fae21bffce82e8fa5685b1b4a6ec8a25ff4f14cf2305b",
+      "source_docs": [
+        "reddit/ai/2026-09-26.md"
       ]
     },
     {
@@ -62204,7 +62621,8 @@
       "size": 30973,
       "sha256": "feebb7cbe43cb1934d546ee846ed72ea37f80a02537cb68f8b1f5d65b717f3c7",
       "source_docs": [
-        "reddit/ai-coding/2026-09-25.md"
+        "reddit/ai-coding/2026-09-25.md",
+        "reddit/ai-coding/2026-09-26.md"
       ]
     },
     {
@@ -62328,6 +62746,16 @@
       "source_docs": [
         "reddit/ai-agent/2026-08-27.md",
         "reddit/ai-agent/2026-08-28.md"
+      ]
+    },
+    {
+      "url": "https://preview.redd.it/kci1r6t6fsrh1.png?width=1043&format=png&auto=webp&s=bb087750806f1ba172568db1f614f2b521df047b",
+      "cache_path": "files/cc0752664d1b83c9babedb5fa0d60276f7ff5b21ccfcc8c002f9a7f968511b75.png",
+      "content_type": "image/png",
+      "size": 316558,
+      "sha256": "52401a6c12be15f942e30d10726bf4f642e3375c8febc55e0124da30ab99f7a6",
+      "source_docs": [
+        "reddit/ai/2026-09-26.md"
       ]
     },
     {
@@ -63739,6 +64167,16 @@
       ]
     },
     {
+      "url": "https://preview.redd.it/pa5qdhpxqurh1.png?width=1830&format=png&auto=webp&s=6a2670a00a298ae23d33d64733d89c469b44acfb",
+      "cache_path": "files/14eb9e7f93e78010547a00719af04c6741308bdb199d3dde112f22b27b4ae142.png",
+      "content_type": "image/png",
+      "size": 49454,
+      "sha256": "6ff9c18582e03993088dae07e4f974f535f2a68f6a8f0e9c254763708e79e6da",
+      "source_docs": [
+        "reddit/ai-agent/2026-09-26.md"
+      ]
+    },
+    {
       "url": "https://preview.redd.it/pbb4y9sabp5h1.png?width=1204&format=png&auto=webp&s=858b5cbf6e33fb47bfce98a67f692d431671e22e",
       "cache_path": "files/7ab1b7df53605301ed8591b6c4c90337f7fb757bd99c404444afe1c82925fb37.png",
       "content_type": "image/png",
@@ -63849,6 +64287,16 @@
       "sha256": "7ec11ff1d7762e09664be72d246ca9305a6c48ae188a0e444e21ff2a5feeeaaa",
       "source_docs": [
         "reddit/ai-agent/2026-07-29.md"
+      ]
+    },
+    {
+      "url": "https://preview.redd.it/pmgcpwmm4prh1.png?width=1186&format=png&auto=webp&s=71a5c3336da1b252876ac66f29ff219aebe6eac5",
+      "cache_path": "files/9772dedb722331bb89995545f2a416390731f9c7d7ddf67aa94e2567d6c2fc97.png",
+      "content_type": "image/png",
+      "size": 6748,
+      "sha256": "cd79331e8544d9dde30440825c4615dce990c3e2459972819f05b81fbf445d76",
+      "source_docs": [
+        "reddit/ai-coding/2026-09-26.md"
       ]
     },
     {
@@ -66584,7 +67032,8 @@
       "size": 155807,
       "sha256": "4a43c05fee006699518402ba423d1c8a82d11300d3427c1156264223b21dc19b",
       "source_docs": [
-        "reddit/ai-coding/2026-09-25.md"
+        "reddit/ai-coding/2026-09-25.md",
+        "reddit/ai-coding/2026-09-26.md"
       ]
     },
     {
@@ -67071,6 +67520,16 @@
       "sha256": "1dc44c5283fbe01b131957a0b9aaeb9dc42c994b7ede244f0c20fef62c65bdf6",
       "source_docs": [
         "reddit/ai-agent/2026-07-06.md"
+      ]
+    },
+    {
+      "url": "https://raw.githubusercontent.com/XEonAX/blender-copilot/main/docs/media/hero.png",
+      "cache_path": "files/24ea6c85acd52a66e01667084b4ee2eb0fd042425c2147e69f355db2ec4afa12.png",
+      "content_type": "image/png",
+      "size": 368416,
+      "sha256": "384db1be2ddbf06fbc6c7e6ef17a0f77af91e8326c254b3d0aec6022f8cd4770",
+      "source_docs": [
+        "hackernews/ai/2026-09-26.md"
       ]
     },
     {
